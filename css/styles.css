@@ -1,0 +1,159 @@
+/* Start of jQuery FAQ */
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    color:slategray;
+}
+
+
+/* Default container for all questions */
+#container {
+    width: 1280px; 
+    margin:auto;
+}
+
+/* Question styles */
+.question {
+    padding: 10px;
+    border-radius: 6px;
+    background: white;
+    transition: all 0.5s ease;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.question:hover {
+    background-color: #0695dd;
+}
+
+.question.open {
+    -webkit-box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.13);
+    -moz-box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.13);
+    box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.13);
+}
+
+.question .faqAnswer { 
+    display: none; 
+    padding: 20px 10px;
+    line-height: 28px;
+    color: rgba(0,0,0,0.6);
+    font-size: 17px;
+}
+
+.question.open:hover {
+    background: white;
+}
+
+.question h4 {
+    border-radius: 6px;
+    margin: 0px;
+    padding: 10px;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.question h4.open {
+    border-radius: 6px;
+    margin: 0px;
+    color: white;
+    background-color: #0695dd;
+    cursor: pointer;
+}
+
+.question:hover h4 {
+    color: white;
+}
+
+/* End of jQuery FAQ */
+
+/* Start of Contact Page styling */
+.messages {
+    border: 3px solid red;
+    color: red;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+.contact-footer {
+  position: absolute;
+  height: 25px;
+  width: 100%;
+}
+/* End of Contact Page styling */
+
+/* Start of Carousel Page styling */
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active-dot, .dot:hover {
+  background-color: #717171;
+}
+/* End of Carousel Page styling */
+
+/* Start of stylings for RPS Game Page */
+#user-img, #comp-img {
+  width: 50%;
+}
+/* End of stylings for RPS Game Page */
+
+/* General stylings for all pages */
+body {
+  background-color: aliceblue;
+}
+nav {
+  background-color: azure;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 25px;
+  width: 100%;
+}
+#nav-image {
+  max-width: 5em;
+  margin-right: 1em;
+}
+
+/* media queries */
+@media (min-width: 768px) {
+  .contact-footer {
+    bottom: 0;
+  }
+}
